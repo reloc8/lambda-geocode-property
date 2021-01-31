@@ -25,6 +25,8 @@ class TestGeocodePropertyLambda(unittest.TestCase):
 
             mongodb_uri = mongodb.get_connection_url()
             os.environ['MONGODB_URI'] = mongodb_uri
+            os.environ['MONGODB_DATABASE'] = ''
+            os.environ['MONGODB_COLLECTION'] = ''
             os.environ['API_ACCESS_TOKEN_GEOCODING'] = 'dummy_token'
 
             with open('resources/properties-1.json', 'r') as file:
@@ -59,6 +61,8 @@ class TestGeocodePropertyLambda(unittest.TestCase):
             expected_result['cursor'] = mock.ANY
             actual_result = results[0]
 
+            self.assertEqual('timeSeriesDB', mongodb_database)
+            self.assertEqual('properties', mongodb_collection)
             self.assertIsNotNone(actual_result['cursor'])
             self.assertDictEqual(expected_result, actual_result)
 
