@@ -1,0 +1,23 @@
+[
+  {
+    "id": "d769abe7ca1d27e4129d5fd5ce137324df12dec2",
+    "price": 135000,
+    "monthly_charge": 55,
+    "floor": "3",
+    "n_rooms": 2,
+    "n_bathrooms": 1,
+    "n_parking_spaces": null,
+    "surface": 52,
+    "condition": "BEST",
+    "type": "FLAT",
+    "heating": "INDEPENDENT",
+    "ownership": "FULL",
+    "year_of_construction": 2012,
+    "published_on": "2021-01-13",
+    "location": {
+      "address": "Via S. Pancrazio 4",
+      "city": "Torino"
+    },
+    "contract": "SALE"
+  }
+]

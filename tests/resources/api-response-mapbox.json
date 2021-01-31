@@ -1,0 +1,255 @@
+{
+  "type": "FeatureCollection",
+  "query": [
+    "via",
+    "s",
+    "pancrazio",
+    "4",
+    "torino"
+  ],
+  "features": [
+    {
+      "id": "address.4349262859698622",
+      "type": "Feature",
+      "place_type": [
+        "address"
+      ],
+      "relevance": 1,
+      "properties": {
+        "accuracy": "rooftop"
+      },
+      "text": "Via San Pancrazio",
+      "place_name": "Via San Pancrazio 4, 10147 Torino Turin, Italy",
+      "center": [
+        7.663879,
+        45.104465
+      ],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.663879,
+          45.104465
+        ]
+      },
+      "address": "4",
+      "context": [
+        {
+          "id": "postcode.15468895946986950",
+          "text": "10147"
+        },
+        {
+          "id": "place.15153045818555340",
+          "wikidata": "Q495",
+          "text": "Torino"
+        },
+        {
+          "id": "region.18212503248555340",
+          "wikidata": "Q16287",
+          "short_code": "IT-TO",
+          "text": "Turin"
+        },
+        {
+          "id": "country.18258463351519910",
+          "wikidata": "Q38",
+          "short_code": "it",
+          "text": "Italy"
+        }
+      ]
+    },
+    {
+      "id": "address.467421202440498",
+      "type": "Feature",
+      "place_type": [
+        "address"
+      ],
+      "relevance": 1,
+      "properties": {
+        "accuracy": "point"
+      },
+      "text": "Via San Pancrazio",
+      "place_name": "Via San Pancrazio 4, 10040 Druento Turin, Italy",
+      "center": [
+        7.574066,
+        45.132949
+      ],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.574066,
+          45.132949
+        ]
+      },
+      "address": "4",
+      "context": [
+        {
+          "id": "postcode.13287286974179190",
+          "text": "10040"
+        },
+        {
+          "id": "place.4122202845652120",
+          "wikidata": "Q9336",
+          "text": "Druento"
+        },
+        {
+          "id": "region.18212503248555340",
+          "wikidata": "Q16287",
+          "short_code": "IT-TO",
+          "text": "Turin"
+        },
+        {
+          "id": "country.18258463351519910",
+          "wikidata": "Q38",
+          "short_code": "it",
+          "text": "Italy"
+        }
+      ]
+    },
+    {
+      "id": "address.2317412903835804",
+      "type": "Feature",
+      "place_type": [
+        "address"
+      ],
+      "relevance": 1,
+      "properties": {
+        "accuracy": "point"
+      },
+      "text": "Via San Pancrazio",
+      "place_name": "Via San Pancrazio 4, 10044 Pianezza Turin, Italy",
+      "matching_place_name": "Via San Pancrazio 4, 10044 Pianezza Torino, Italy",
+      "center": [
+        7.542362,
+        45.113078
+      ],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.542362,
+          45.113078
+        ]
+      },
+      "address": "4",
+      "context": [
+        {
+          "id": "postcode.2195824401654800",
+          "text": "10044"
+        },
+        {
+          "id": "place.2195824402014940",
+          "wikidata": "Q9569",
+          "text": "Pianezza"
+        },
+        {
+          "id": "region.18212503248555340",
+          "wikidata": "Q16287",
+          "short_code": "IT-TO",
+          "text": "Turin"
+        },
+        {
+          "id": "country.18258463351519910",
+          "wikidata": "Q38",
+          "short_code": "it",
+          "text": "Italy"
+        }
+      ]
+    },
+    {
+      "id": "address.5042419806081878",
+      "type": "Feature",
+      "place_type": [
+        "address"
+      ],
+      "relevance": 1,
+      "properties": {
+        "accuracy": "point"
+      },
+      "text": "Via San Pancrazio",
+      "place_name": "Via San Pancrazio 4, 10040 San Gillio Turin, Italy",
+      "matching_place_name": "Via San Pancrazio 4, 10040 San Gillio Torino, Italy",
+      "center": [
+        7.534685,
+        45.140667
+      ],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.534685,
+          45.140667
+        ]
+      },
+      "address": "4",
+      "context": [
+        {
+          "id": "postcode.13287286974179190",
+          "text": "10040"
+        },
+        {
+          "id": "place.10011678609572320",
+          "wikidata": "Q10265",
+          "text": "San Gillio"
+        },
+        {
+          "id": "region.18212503248555340",
+          "wikidata": "Q16287",
+          "short_code": "IT-TO",
+          "text": "Turin"
+        },
+        {
+          "id": "country.18258463351519910",
+          "wikidata": "Q38",
+          "short_code": "it",
+          "text": "Italy"
+        }
+      ]
+    },
+    {
+      "id": "address.5898891609320458",
+      "type": "Feature",
+      "place_type": [
+        "address"
+      ],
+      "relevance": 1,
+      "properties": {
+        "accuracy": "point"
+      },
+      "text": "Via San Pancrazio",
+      "place_name": "Via San Pancrazio 4, 10050 Vaie Turin, Italy",
+      "matching_place_name": "Via San Pancrazio 4, 10050 Vaie Torino, Italy",
+      "center": [
+        7.289385,
+        45.101494
+      ],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.289385,
+          45.101494
+        ]
+      },
+      "address": "4",
+      "context": [
+        {
+          "id": "postcode.8734739516142400",
+          "text": "10050"
+        },
+        {
+          "id": "place.8707991680250000",
+          "wikidata": "Q10330",
+          "text": "Vaie"
+        },
+        {
+          "id": "region.18212503248555340",
+          "wikidata": "Q16287",
+          "short_code": "IT-TO",
+          "text": "Turin"
+        },
+        {
+          "id": "country.18258463351519910",
+          "wikidata": "Q38",
+          "short_code": "it",
+          "text": "Italy"
+        }
+      ]
+    }
+  ]
+}
