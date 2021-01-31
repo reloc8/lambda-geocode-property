@@ -33,6 +33,7 @@ with open('version', 'r') as version:
         author='Alessio Vierti',
         packages=setuptools.find_packages(exclude=['tests']),
         install_requires=[
+            'dnspython',
             'pymongo',
             'pygeohash',
             private_dependency(personal_access_token=GITHUB_PERSONAL_ACCESS_TOKEN,
