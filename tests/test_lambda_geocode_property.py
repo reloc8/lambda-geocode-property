@@ -47,6 +47,8 @@ class TestGeocodePropertyLambda(unittest.TestCase):
 
             from geocode_property.core.handler import LAMBDA_HANDLER, MONGODB_CONNECTION
 
+            # Calling twice to test duplicate properties handling:
+            LAMBDA_HANDLER.run(event=event, context=None)
             LAMBDA_HANDLER.run(event=event, context=None)
 
             mongodb_connection = MONGODB_CONNECTION

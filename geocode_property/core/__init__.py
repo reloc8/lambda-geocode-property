@@ -99,4 +99,5 @@ class GeocodePropertyLambdaCore:
 
         database = self.mongodb_connection.database
         collection = self.mongodb_connection.collection
-        MONGODB_CLIENT[database][collection].insert_one(property)
+        MONGODB_CLIENT[database][collection]\
+            .update_one(filter={'_id': property['_id']}, update={'$set': property}, upsert=True)
