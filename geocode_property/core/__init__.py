@@ -14,7 +14,7 @@ MONGODB_CLIENT = pymongo.MongoClient(MONGODB_CONNECTION.uri)
 
 POOL_MANGER = urllib3.PoolManager(
     num_pools=10,
-    retries=0,
+    retries=urllib3.Retry(total=1),
     timeout=urllib3.Timeout(connect=2, read=5)
 )
 
