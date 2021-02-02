@@ -50,9 +50,11 @@ class GeocodePropertyLambdaCore:
             status_code = response.status
             if status_code == 200:
                 data = json.loads(response.data)
-                best_result = data['features'][0]
-                latitude = best_result['center'][1]
-                longitude = best_result['center'][0]
+                results = data['features']
+                if results and isinstance(results, list):
+                    best_result = results[0]
+                    latitude = best_result['center'][1]
+                    longitude = best_result['center'][0]
             else:
                 self.logger.error(f'Received response with unexpected status: {status_code}')
         else:
